@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Women summer pajama Soft Pistache | Town Team Home</title>
+  <meta name="description" content="Women summer pajama in Soft Pistache. SKU MSNW2929.">
+
+  <!-- Fonts: Neulis Sans + Neulis Cursive from the Town Team Home Adobe Fonts web project.
+       Urbanist (self-hosted in assets/fonts) is only a fallback while the kit loads or if it fails. -->
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin>
+  <link rel="stylesheet" href="https://use.typekit.net/gpq6zma.css">
+
+  <link rel="preload" as="image" href="assets/product/frames/view-01-front.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to product</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#" aria-label="Town Team Home, home page">
+        <img class="brand__logo" src="assets/brand/town-team-home-logo.svg" alt="" width="184" height="76">
+      </a>
+
+      <nav class="site-nav" aria-label="Main">
+        <ul class="site-nav__list" role="list">
+          <li><a class="site-nav__link" href="#">Home</a></li>
+          <li><a class="site-nav__link" href="#">Men</a></li>
+          <li><a class="site-nav__link" href="#" aria-current="page">Women</a></li>
+          <li><a class="site-nav__link" href="#">Kids</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container product">
+
+    <!-- ============ Product viewer ============ -->
+    <figure class="viewer" id="viewer" data-state="loading" data-mode="spin">
+      <div
+        class="viewer__stage"
+        id="viewer-stage"
+        tabindex="0"
+        role="slider"
+        aria-label="Rotate product"
+        aria-valuemin="0"
+        aria-valuemax="359"
+        aria-valuenow="0"
+        aria-valuetext="0 degrees, front"
+        aria-describedby="viewer-help"
+      >
+        <!-- Rotation frames are injected by script.js from `productFrames` -->
+        <div class="viewer__frames" id="viewer-frames"></div>
+
+        <!-- Still images (hanger, flat lay, details) are shown here -->
+        <img class="viewer__still" id="viewer-still" alt="" draggable="false" hidden>
+      </div>
+
+      <p class="viewer__label" id="viewer-label" aria-hidden="true">Front</p>
+
+      <div class="viewer__loader" id="viewer-loader" role="status" aria-live="polite">
+        <svg class="viewer__loader-ring" viewBox="0 0 44 44" width="44" height="44" aria-hidden="true">
+          <circle cx="22" cy="22" r="20" class="viewer__loader-track"/>
+          <circle cx="22" cy="22" r="20" class="viewer__loader-progress" id="viewer-loader-progress"/>
+        </svg>
+        <span class="viewer__loader-text" id="viewer-loader-text">Loading views</span>
+      </div>
+
+      <figcaption class="visually-hidden" id="viewer-help">
+        Drag the photo or the degree bar, swipe, or use the left and right arrow keys to turn the product.
+      </figcaption>
+    </figure>
+
+    <!-- ============ Product summary ============ -->
+    <section class="summary" aria-labelledby="product-title">
+      <h1 class="summary__title" id="product-title">
+        <span class="summary__title-line">Women summer pajama</span>
+        <span class="summary__title-line">Soft Pistache</span>
+      </h1>
+
+      <p class="summary__sku">SKU: <span>MSNW2929</span></p>
+
+      <p class="price">
+        <s class="price__was">
+          <span class="visually-hidden">Original price:</span>
+          <data value="1449.00">1,449.00 EGP</data>
+        </s>
+        <strong class="price__now">
+          <span class="visually-hidden">Current price:</span>
+          <data value="1149.00">1,149.00 EGP</data>
+        </strong>
+      </p>
+
+      <fieldset class="sizes">
+        <legend class="visually-hidden">Size</legend>
+        <div class="sizes__options">
+          <label class="size"><input class="size__input" type="radio" name="size" value="S"><span class="size__box">S</span></label>
+          <label class="size"><input class="size__input" type="radio" name="size" value="M"><span class="size__box">M</span></label>
+          <label class="size"><input class="size__input" type="radio" name="size" value="L"><span class="size__box">L</span></label>
+          <label class="size"><input class="size__input" type="radio" name="size" value="XL"><span class="size__box">XL</span></label>
+        </div>
+      </fieldset>
+    </section>
+
+    <!-- ============ Rotation indicator ============ -->
+    <section class="rotation" id="rotation" aria-label="Rotation position">
+      <div class="rotation__scrub" id="rotation-scrub" aria-hidden="true">
+      <div class="rotation__track">
+        <span class="rotation__fill" id="rotation-fill"></span>
+        <span class="rotation__ticks" id="rotation-ticks"></span>
+        <span class="rotation__marker" id="rotation-marker">
+          <span class="rotation__readout" id="rotation-readout">0°</span>
+        </span>
+      </div>
+      </div>
+
+      <ol class="rotation__scale" role="list">
+        <li><button class="rotation__stop" type="button" data-angle="0"   aria-label="Turn to 0 degrees, front">0°</button></li>
+        <li><button class="rotation__stop" type="button" data-angle="90"  aria-label="Turn to 90 degrees">90°</button></li>
+        <li><button class="rotation__stop" type="button" data-angle="180" aria-label="Turn to 180 degrees, back">180°</button></li>
+        <li><button class="rotation__stop" type="button" data-angle="270" aria-label="Turn to 270 degrees">270°</button></li>
+        <li><button class="rotation__stop" type="button" data-angle="360" aria-label="Turn a full 360 degrees">360°</button></li>
+      </ol>
+    </section>
+
+    <!-- ============ Thumbnails ============ -->
+    <div class="thumbs" aria-label="Product images">
+      <!-- Rendered by script.js from `galleryItems` -->
+      <ul class="thumbs__list" id="thumbs-list" role="list"></ul>
+    </div>
+
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
